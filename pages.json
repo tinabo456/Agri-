@@ -1,0 +1,131 @@
+{
+	"pages": [
+		{
+			"path": "pages/auth/boot",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/crops/index",
+			"style": {
+				"navigationBarTitleText": "我的作物",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/tabs/mall/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/tabs/ai/index",
+			"style": {
+				"navigationBarTitleText": "AI",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/tabs/me/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth/location",
+			"style": {
+				"navigationBarTitleText": "定位与天气",
+				"navigationBarBackgroundColor": "#0B6D3B",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/weather/index",
+			"style": {
+				"navigationBarTitleText": "天气",
+				"navigationBarBackgroundColor": "#0B6D3B",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/circle/index",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"navigationBarBackgroundColor": "#0B6D3B",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7A7A",
+		"selectedColor": "#0B6D3B",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/tabs/home/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/tab_home_off.png",
+				"selectedIconPath": "static/tabbar/tab_home_on.png"
+			},
+			{
+				"pagePath": "pages/tabs/crops/index",
+				"text": "我的作物",
+				"iconPath": "static/tabbar/tab_crops_off.png",
+				"selectedIconPath": "static/tabbar/tab_crops_on.png"
+			},
+			{
+				"pagePath": "pages/tabs/mall/index",
+				"text": "商城",
+				"iconPath": "static/tabbar/tab_mall_off.png",
+				"selectedIconPath": "static/tabbar/tab_mall_on.png"
+			},
+			{
+				"pagePath": "pages/tabs/ai/index",
+				"text": "AI",
+				"iconPath": "static/tabbar/tab_ai_off.png",
+				"selectedIconPath": "static/tabbar/tab_ai_on.png"
+			},
+			{
+				"pagePath": "pages/tabs/me/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/tab_me_off.png",
+				"selectedIconPath": "static/tabbar/tab_me_on.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "农事通·智慧生产",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F6F8F7",
+		"backgroundTextStyle": "light"
+	},
+	"uniIdRouter": {}
+}

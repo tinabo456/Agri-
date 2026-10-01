@@ -1,0 +1,36 @@
+$brand: #0B6D3B;
+$brand2: #0F8A4A;
+$bg: #F6F8F7;
+$card: #FFFFFF;
+$text: #101828;
+$muted: #667085;
+$line: #EAECF0;
+
+.page {
+  min-height: 100vh;
+  background: $bg;
+  color: $text;
+}
+
+.card {
+  background: $card;
+  border-radius: 20rpx;
+  box-shadow: 0 10rpx 30rpx rgba(16, 24, 40, 0.06);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, $brand 0%, $brand2 100%);
+  color: #fff;
+  border-radius: 999rpx;
+}
+
+.btn-ghost {
+  background: rgba(11, 109, 59, 0.08);
+  color: $brand;
+  border-radius: 999rpx;
+}
+
+.text-muted {
+  color: $muted;
+}
+
